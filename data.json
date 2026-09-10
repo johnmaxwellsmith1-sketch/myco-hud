@@ -1,12 +1,14 @@
 {
-  "notes": 326,
+  "notes": 333,
   "domains": 16,
   "income": "$0",
-  "sends": 7,
+  "sends": 13,
   "replies": 0,
   "sales": 0,
+  "articles": 100,
+  "streams": 10,
   "domain_status": "verified",
-  "outreach_status": "LIVE",
+  "outreach_status": "LIVE (13 sent)",
   "hyrve_status": "live",
   "updated": "2026-09-07"
 }

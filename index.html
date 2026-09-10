@@ -91,6 +91,8 @@ th{color:var(--dim);font-size:.75rem;text-transform:uppercase}
       <tr><td>Replies</td><td><span id="replies">0</span></td></tr>
       <tr><td>Sales</td><td><span id="sales">0</span></td></tr>
       <tr><td>Income</td><td><span id="income2">$0</span></td></tr>
+      <tr><td>Articles</td><td><span id="articles">0</span></td></tr>
+      <tr><td>Income streams</td><td><span id="streams">0</span></td></tr>
     </table>
   </div>
 
@@ -122,6 +124,8 @@ fetch('data.json').then(r=>r.json()).then(d=>{
   document.getElementById('outreach').textContent=d.outreach_status||'—';
   document.getElementById('domain').textContent=d.domain_status||'—';
   document.getElementById('hyrve').textContent=d.hyrve_status||'—';
+  document.getElementById('articles').textContent=d.articles||0;
+  document.getElementById('streams').textContent=d.streams||0;
 }).catch(()=>{});
 </script>
 </body>
